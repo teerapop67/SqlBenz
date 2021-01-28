@@ -27,7 +27,7 @@ namespace SqlBenz
             DataAccess db = new DataAccess();
             people = db.Getpeople(lastNameText.Text);
             UpdateFunction();
-            string be;
+            string benz;
         }
     }
 }
